@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* Переопределение цвета стрелок карусели */
+.custom-carousel .slick-prev, .custom-carousel .slick-next {
+    color: black;
+  }
+  
+  .custom-carousel .slick-prev:hover, .custom-carousel .slick-next:hover {
+    color: black;
+  }
+  
+  /* Переопределение цвета точек карусели */
+  .custom-carousel .slick-dot {
+    background-color: black; /* Цвет точек */
+  }
+  
+  .custom-carousel .slick-dot.slick-active {
+    background-color: black; /* Цвет активной точки */
+  }
+  
