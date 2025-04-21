@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from typing import Annotated
+from typing import Annotated, Union
 
 from fastapi import Request, Depends
 from jose import jwt, JWTError
